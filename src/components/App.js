@@ -1,5 +1,6 @@
 import React from 'react';
 import SongList from './songs/SongList';
+import ViewSelectedSong from './songs/ViewSelectedSong';
 
 function App() {
   return (
@@ -9,7 +10,7 @@ function App() {
               <SongList />
           </div>
           <div className="twelve wide column">
-
+            <ViewSelectedSong />
           </div>
         </div>
     </div>
